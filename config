@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[user]
+    email = dockwerk@users.noreply.github.com
+    name  = dockwerk
+[remote "origin"]
+	url = git@github.com:dockwerk/filterholder.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
